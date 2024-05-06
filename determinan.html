@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Determinant Calculator</title>
+    <link rel="stylesheet" href="determinan.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Matrix Determinant Calculator</h2>
+        <div class="reminder">
+            <p>Masukkan matriks sesuai dengan contoh ordo ini:</p>
+            <p>Contoh ordo 2x2: a b c d</p>
+            <p>Contoh ordo 3x3: a b c d e f g h i</p>
+            <p>Contoh ordo 4x4: a b c d e f g h i j k l m n o p</p>
+            <!-- Contoh ordo 4x4, 5x5, dan seterusnya dapat ditambahkan di sini -->
+        </div>
+        <div class="input-matrix">
+            <textarea id="matrixInput" placeholder="Masukkan matriks"></textarea>
+        </div>
+        <button onclick="calculateDeterminant()">Hitung Determinan</button>
+        <div id="result"></div>
+        <div id="explanation"></div>
+    </div>
+    <script src="determinan.js"></script>
+</body>
+</html>
